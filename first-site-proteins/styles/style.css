@@ -1,0 +1,38 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    /*color: rgb(255, 255, 0); */
+    color: rgb(255, 255, 100);
+  }
+/* Top right text */
+/* when I changed the resolution on my laptop the text changed positions */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 5em;
+  width: 500px;
+  padding: 10px;
+  font-family: 'Caveat', cursive;
+  font-size: 2.5em;
+  text-shadow: 2px 2px #1a0000;;
+}
+
+h1 {
+  text-align: center;
+}
+body {
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  margin:1em 0em 1em 0em;
+  padding: 1em 20em;
+}
+
+ul {
+  list-style-position: inside;
+}
