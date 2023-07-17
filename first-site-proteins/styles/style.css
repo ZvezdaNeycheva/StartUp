@@ -1,20 +1,23 @@
 /* Container holding the image and the text */
 .container {
     position: relative;
+    width: 100%;
     /*color: rgb(255, 255, 0); */
     color: rgb(255, 255, 100);
+    border-style: dashed;
   }
 /* Top right text */
 /* when I changed the resolution on my laptop the text changed positions */
 .top-right {
   position: absolute;
   top: 8px;
-  right: 9em;
-  width: 500px;
+  right: 23rem;
+  width: 500px; /*30% */
   padding: 10px;
   font-family: 'Caveat', cursive;
-  font-size: 2.5em;
-  text-shadow: 2px 2px #1a0000;;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px #1a0000;
+  border-style: dashed;
 }
 
 h1 {
@@ -28,8 +31,8 @@ body {
   color: black;
 }
 .dark-mode {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #fff;
 }
 
 table {
@@ -40,4 +43,24 @@ table {
 
 ul {
   list-style-position: inside;
+}
+
+input, button {
+  background-color: inherit;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol li {
+  padding-left: 1.5rem;
+  display: inline-block;
+}
+
+.para {
+  width: 60ch;
+  line-height: 1.5;
+  
 }
