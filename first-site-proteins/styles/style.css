@@ -63,8 +63,9 @@ ol li {
 
 .para {
   width: 60ch;
-  line-height: 1.5;
-  margin: 1.5em 2em;
-  text-align: center;
+  padding: 1em 5em;
+  line-height: 1.6;
+  margin: 1.5em auto;
+  text-align: justify;
 }
 
