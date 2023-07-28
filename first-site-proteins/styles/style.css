@@ -1,24 +1,26 @@
 /* Container holding the image and the text */
 .container {
     position: relative;
-    width: 100%;
-    /*color: rgb(255, 255, 0); */
+    width: 75%;
     color: rgb(255, 255, 100);
     border-style: dashed;
+    margin: 0 auto;
   }
 /* Top right text */
 /* when I changed the resolution on my laptop the text changed positions */
 .top-right {
   position: absolute;
   top: 8px;
-  right: 23rem;
-  width: 500px; /*30% */
-  padding: 10px;
+  right: 10px;
+  width:clamp(35%,500px,10em);  /*500px 30% 10em*/ 
+  height: calc(98% - 8px);
   font-family: 'Caveat', cursive;
-  font-size: 2.5rem;
-  text-shadow: 2px 2px #1a0000;
-  border-style: dashed;
-}
+  font-size:clamp(1.9rem,2.5rem,2.5rem); 
+  line-height: clamp(90%,1.1,1.5);
+  text-shadow: 2px 2px 4px #1a0000;
+  border-style: dotted;
+   display: flow-root;
+ }
 
 h1 {
   text-align: center;
@@ -62,5 +64,7 @@ ol li {
 .para {
   width: 60ch;
   line-height: 1.5;
-  
+  margin: 1.5em 2em;
+  text-align: center;
 }
+
