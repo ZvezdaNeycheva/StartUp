@@ -8,3 +8,6 @@ function myFunction() {
    let result = Number(kg) * 1.6  
    document.getElementById("returnProteinIntake").innerHTML = 'Дневно трябва да приемате по:  '+ result.toFixed(2) +" грама"
  }
+
+let importText = reqire('../eventListenerButtonAjaxText.js')
+document.getElementById("SomeProteinFoods").addEventListener('click', loadText);
